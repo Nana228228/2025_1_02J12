@@ -11,15 +11,10 @@ public class Espetaculo {
         System.out.print("Diga-me o custo de produção");
         float custo = entrada2.nextFloat();
 
-        //float x;
-        //float y; 
-        
-        //custo  = x * precoDaEntrada;
+        float x = custo/precoDaEntrada;
+        float  y = custo * 1.23f/precoDaEntrada; 
 
-        int x = (int)Math.ceil (custo/precoDaEntrada);
-        int y = (int) Math.ceil(custo * 1.23f/precoDaEntrada); 
-
-        System.out.printf("A quantidade de igressos para não tomar prejuizo é de %f e para lucrar 23% %f", x, y);
+        System.out.printf("A quantidade de igressos para não tomar prejuizo é de %f e para lucrar 23%%20 %f", x, y);
     }
 }
 

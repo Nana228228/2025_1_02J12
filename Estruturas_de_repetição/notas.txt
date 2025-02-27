@@ -1,0 +1,24 @@
+While
+Uma, nenhuma ou várias vezes 
+
+
+
+do {
+    //repetição
+} while (condição);
+executa ao menos uma vez 
+
+For
+for(pré-comando;condição a ser testada para que o loop continue;pós-comando){
+    bloco de repetição
+}
+
+obs: o único essencial para o for funcionar é a condição (se não houver, repete infinitamente o loop)
+
+++ pré fixado: primeiro incrementa e depois verifica a igusaldade
+
+Prestar atenção nos operadpres lógicos ao reverter a ordem 
+
+Não existe nextChar
+
+char deve ter aspas 
